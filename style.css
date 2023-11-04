@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Slab:wght@100;300&display=swap');
+.titulo {
+font-family: 'Montserrat', sans-serif;
+text-align:center;
+}
+
+body{
+    background-color:#5F667A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulo_principal {
+    font-family: 'Edu TAS Beginner', cursive;
+    color:rgb(74, 75, 37);
+    font-size: 65pt;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px 30px 0px 30px;
+    border: solid 2px;
+    border-radius: 10px;    
+}
+main{
+    margin-bottom: 80px;    
+}
+
+#imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+label, input {
+    font-size: 16pt;
+}  
+input{
+    background-color: transparent;
+    border: solid 1px;
+    border-color: aqua;
+    border-radius: 6pt;
+
+} 
